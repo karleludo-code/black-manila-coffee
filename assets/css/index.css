@@ -1,0 +1,67 @@
+* {
+  /* test */
+  background-color: black;
+  color: white;
+
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* test */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* default styling */
+h1 {
+  font-size: 26px;
+  line-height: 32px;
+  /* color: white; */
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+  /* color: white; */
+}
+
+a {
+  font-size: 14px;
+  line-height: 18px;
+  /* color: white; */
+  cursor: pointer;
+}
+/* default styling end  */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 140px;
+}
+
+.navbar-logo {
+  height: 100px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
