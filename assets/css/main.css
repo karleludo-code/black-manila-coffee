@@ -1,0 +1,21 @@
+/* default styling */
+h1 {
+  font-size: 26px;
+  line-height: 32px;
+  /* color: white; */
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+  /* color: white; */
+}
+
+a {
+  font-size: 14px;
+  line-height: 18px;
+  /* color: white; */
+  cursor: pointer;
+}
+/* default styling end  */
