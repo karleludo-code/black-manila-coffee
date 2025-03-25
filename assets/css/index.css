@@ -112,7 +112,7 @@ main.explore {
   height: 100vh;
 }
 
-.explore-overlay {
+.beans-overlay {
   background-image: url(/assets/images/tim-mossholder-YC6RVdoTtIk-unsplash.jpg);
   background-size: cover;
   background-position: 0 60%;
