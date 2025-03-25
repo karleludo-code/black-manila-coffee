@@ -6,11 +6,11 @@
   font-optical-sizing: auto;
   font-style: normal;
   /* test */
-  margin: 0;
-  padding: 0;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,26 +83,20 @@ section.hero > .hero-box > .hero-intro {
   line-height: 1.1;
 }
 
-section.hero > .hero-box > .hero-cta {
+section.hero > .hero-box > .hero-button {
   font-size: 38px;
-  padding: 20px 40px;
-
-  display: inline-block;
-  margin-top: 40px;
+  margin-top: 35px;
   margin-right: 110px;
+  padding: 20px 40px;
+}
 
-  background-color: transparent;
-  text-decoration: none;
-  border: 2px solid white;
-  width: fit-content;
+section.hero > .hero-box > .hero-button:hover {
+  background-color: var(--light-color);
+  color: var(--dark-color);
 }
 
 section.hero > .hero-box strong {
   font-weight: 600;
-}
-section.hero > .hero-box > .hero-cta:hover {
-  background-color: var(--light-color);
-  color: var(--dark-color);
 }
 
 main.explore {

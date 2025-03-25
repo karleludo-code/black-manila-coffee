@@ -24,3 +24,12 @@ a {
   cursor: pointer;
 }
 /* default styling end  */
+
+.button-cta {
+  display: inline-block;
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid white;
+  width: fit-content;
+  padding: 15px 15px;
+}
