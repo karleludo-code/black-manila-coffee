@@ -101,6 +101,42 @@ main.explore {
 
 .explore > .product-drinks {
   height: 70vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.explore > .drinks-overlay {
+  background-image: url(/assets/images/repeated-text-overlay.png);
+  background-size: cover;
+  background-position: center;
+  /* crazy gradient wizardry */
+  border-image: linear-gradient(
+      90deg,
+      black,
+      rgba(0, 0, 0, 0.9),
+      rgba(99, 99, 99, 0.6)
+    )
+    fill 1;
+}
+
+.explore > .product-drinks > .cta-wrapper {
+  text-align: right;
+  width: 40vw;
+}
+
+.explore > .product-drinks > .cta-wrapper > h2 {
+  margin-top: 0;
+  padding-top: 25px;
+}
+
+.explore > .product-drinks > .cta-wrapper > .button-cta {
+  margin: auto;
+}
+
+.explore > .product-drinks > .cards-wrapper {
+  width: 60vw;
+  padding: 20px;
 }
 
 .explore > .product-beans {
@@ -111,7 +147,6 @@ main.explore {
   background-image: url(/assets/images/tim-mossholder-YC6RVdoTtIk-unsplash.jpg);
   background-size: cover;
   background-position: 0 60%;
-  /* crazy gradient wizardry */
   border-image: linear-gradient(black, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0))
     fill 1;
 }
