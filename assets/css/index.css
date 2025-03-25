@@ -52,9 +52,11 @@ section.hero {
   /* TODO: make this responsive */
   /* maybe select a better photo or change into 2 photos, one for background and one for the coffee cup or some kind of hero image */
   background-image: url(/assets/images/pexels-eyad-tariq-2217318-3879495.jpg);
-  background-size: 125%;
-  background-position: -450px -800px;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center -600px;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
