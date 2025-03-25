@@ -104,6 +104,7 @@ main.explore {
   display: flex;
   flex-direction: row;
   align-items: center;
+  overflow: hidden;
 }
 
 .explore > .drinks-overlay {
@@ -122,12 +123,8 @@ main.explore {
 
 .explore > .product-drinks > .cta-wrapper {
   text-align: right;
-  width: 40vw;
-}
-
-.explore > .product-drinks > .cta-wrapper > h2 {
-  margin-top: 0;
-  padding-top: 25px;
+  flex: 2;
+  margin: 15px;
 }
 
 .explore > .product-drinks > .cta-wrapper > .button-cta {
@@ -135,8 +132,24 @@ main.explore {
 }
 
 .explore > .product-drinks > .cards-wrapper {
-  width: 60vw;
+  flex: 3;
+
   padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+}
+.explore > .product-drinks > .cards-wrapper > .card-item-container {
+  background-color: rgb(138, 119, 119);
+  width: 100%;
+  aspect-ratio: 1;
+}
+.explore > .product-drinks > .cards-wrapper > .card-item-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .explore > .product-beans {
