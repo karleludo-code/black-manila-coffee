@@ -90,11 +90,6 @@ section.hero > .hero-box > .hero-button {
   padding: 20px 40px;
 }
 
-section.hero > .hero-box > .hero-button:hover {
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
 section.hero > .hero-box strong {
   font-weight: 600;
 }
