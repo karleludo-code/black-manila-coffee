@@ -102,3 +102,25 @@ section.hero > .hero-box > .hero-cta:hover {
   background-color: var(--light-color);
   color: var(--dark-color);
 }
+
+main.explore {
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+}
+
+.explore > .product-drinks {
+  height: 70vh;
+}
+
+.explore > .product-beans {
+  height: 100vh;
+}
+
+.explore-overlay {
+  background-image: url(/assets/images/tim-mossholder-YC6RVdoTtIk-unsplash.jpg);
+  background-size: cover;
+  background-position: 0 60%;
+  /* crazy gradient wizardry */
+  border-image: linear-gradient(black, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0))
+    fill 1;
+}
