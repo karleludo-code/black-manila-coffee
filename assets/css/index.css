@@ -118,6 +118,11 @@ main.explore {
   margin: 15px;
 }
 
+.explore > .product-drinks > .cta-wrapper h2,
+.explore > .product-drinks > .cta-wrapper p {
+  margin: 15px 0;
+}
+
 .explore > .product-drinks > .cta-wrapper > .button-cta {
   margin: auto;
 }
