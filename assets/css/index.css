@@ -90,11 +90,12 @@ main.explore {
 }
 
 .explore > .product-drinks {
-  height: 70vh;
+  /* height: 70vh; */
   display: flex;
   flex-direction: row;
   align-items: center;
-  overflow: hidden;
+  /* change this */
+  /* overflow: hidden; */
 }
 
 .explore > .drinks-overlay {
