@@ -34,6 +34,10 @@ header {
   font-size: 20px;
 }
 
+.section-heading {
+  margin-bottom: 2rem;
+}
+
 section.hero {
   width: 100vw;
   height: 100vh;
