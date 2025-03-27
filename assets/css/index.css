@@ -153,11 +153,12 @@ main.explore {
 }
 
 .product-beans {
-  min-height: 80vh;
+  min-height: 70vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 3em 0;
 }
 
 .beans-overlay {
@@ -166,4 +167,48 @@ main.explore {
   background-position: 0 60%;
   border-image: linear-gradient(black, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0))
     fill 1;
+}
+
+.beans-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 4em;
+}
+.beans-item > .beans-image {
+  width: 500px;
+  height: 500px;
+  aspect-ratio: 1;
+
+  /* margin: auto 3em auto auto; */
+  object-fit: cover;
+
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.beans-item > .beans-info {
+  max-width: 800px; /*change to something more FLEXible */
+
+  /* margin: auto auto auto 3em; */
+}
+.beans-info > p,
+.beans-info > .details-list dd,
+.beans-info > h3 {
+  margin-bottom: 0.5em;
+}
+.beans-info > p,
+.beans-info > .details-list dd {
+  text-indent: 2em;
+}
+
+.beans-info > .details-list dt {
+  font-weight: bold;
+}
+
+.beans-button-cta {
+  margin-top: 2em;
 }
