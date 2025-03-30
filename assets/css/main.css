@@ -1,12 +1,12 @@
 :root {
   --dark-color: #1a1a1a;
-  --light-color: white;
+  --light-color: rgb(231, 227, 216);
+  --container-color: rgb(121, 116, 103);
+  --text-color: white;
 }
 
 * {
-  /* test */
-  color: white;
-  /* test */
+  color: var(--text-color);
   font-family: Manrope, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
