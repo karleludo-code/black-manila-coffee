@@ -249,3 +249,63 @@ main.explore {
 .feature-item .feature-container p {
   padding: 0.5em;
 }
+
+.ig-gallery {
+  width: 100%;
+  padding: 2em;
+  text-align: center;
+}
+
+.ig-gallery > .ig-link {
+  font-size: 35px;
+  margin-bottom: 1em;
+  display: block;
+}
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+.gallery-container img {
+  display: block;
+
+  width: 400px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+}
+.gallery-item-wrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.gallery-item-wrapper > .caption {
+  position: absolute;
+  font-size: 1.5em;
+
+  inset: 0;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item-wrapper > img,
+.gallery-item-wrapper > .caption {
+  transition: 200ms ease-in-out;
+}
+
+.gallery-item-wrapper > .caption.fade {
+  opacity: 0;
+}
+.gallery-item-wrapper:hover > .caption.fade {
+  opacity: 1;
+}
+
+.gallery-item-wrapper:hover > img.blur {
+  filter: blur(5px);
+}
