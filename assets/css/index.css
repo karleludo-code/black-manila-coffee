@@ -310,3 +310,77 @@ main.explore {
 .gallery-item-wrapper:hover > img.blur {
   filter: blur(5px);
 }
+
+section.reviews {
+  text-align: center;
+  padding: 4em;
+
+  background-image: linear-gradient(
+      var(--container-color),
+      var(--container-color)
+    ),
+    url(/assets/images/nick-hillier-xBXF9pr6LQo-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: saturation;
+}
+
+section.reviews > .section-heading {
+  display: inline-block;
+  padding: 1em;
+  background-color: var(--container-color);
+}
+
+section.reviews > .reviews-container {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2em;
+  width: 100vw;
+}
+
+.review-item {
+  background-color: var(--container-color);
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-item h3 {
+  margin-bottom: 1em;
+}
+
+.review-item p {
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.review-item > .textbox-container {
+  height: 200px;
+  padding: 1em;
+}
+
+.review-item .review-item-image {
+  height: 360px;
+  width: 360px;
+  object-fit: cover;
+}
+
+.review-item .customer-portrait {
+  transform: translateY(30px);
+  height: 60px;
+  width: 60px;
+
+  margin: auto;
+
+  border: var(--light-color) solid 3px;
+  border-radius: 50%;
+  object-fit: cover;
+}
