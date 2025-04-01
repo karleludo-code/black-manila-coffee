@@ -36,6 +36,7 @@ header {
 
 .section-heading {
   margin-bottom: 2rem;
+  display: block;
 }
 
 section.hero {
