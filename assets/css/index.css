@@ -339,7 +339,7 @@ section.reviews > .reviews-container {
   justify-content: center;
   align-items: center;
 
-  gap: 2em;
+  gap: 2.5em;
   width: 100vw;
 }
 
@@ -348,6 +348,10 @@ section.reviews > .reviews-container {
   width: 360px;
   display: flex;
   flex-direction: column;
+
+  -webkit-box-shadow: 0px 0px 15px 8px rgba(255, 226, 79, 0.38);
+  -moz-box-shadow: 0px 0px 15px 8px rgba(255, 226, 79, 0.38);
+  box-shadow: 0px 0px 15px 8px rgba(255, 226, 79, 0.38);
 }
 
 .review-item h3 {
@@ -355,6 +359,7 @@ section.reviews > .reviews-container {
 }
 
 .review-item p {
+  /* hiding text overflow with ellipsis */
   overflow: hidden;
   width: 100%;
   display: -webkit-box;
