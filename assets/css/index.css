@@ -415,5 +415,76 @@ section.socials {
   color: var(--dark-color);
 }
 .socials-link img {
-  height: 100px;
+  height: 80px;
+}
+
+section.location {
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(
+      var(--container-color),
+      var(--container-color)
+    ),
+    url(/assets/images/pexels-angel-dim-1300296130-28708578.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: saturation;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.location > .section-heading {
+  padding: 1em;
+  background-color: var(--container-color);
+}
+
+.location-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.info-container p {
+  font-size: 1.5em;
+}
+.info-container img {
+  height: 1.5em;
+  margin-right: 1em;
+}
+
+.info-container > .inline-container img,
+.info-container > .inline-container p {
+  display: inline;
+  vertical-align: middle;
+}
+.inline-container {
+  margin: 1em 0;
+}
+.double-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.double-line > .double {
+  display: flex;
+  flex-direction: column;
+}
+.map {
+  min-width: 800px;
+  min-height: 600px;
 }
