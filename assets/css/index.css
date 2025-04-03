@@ -97,8 +97,7 @@ main.explore {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* change this */
-  /* overflow: hidden; */
+  padding: 2rem;
 }
 
 .drinks-overlay {
@@ -395,4 +394,26 @@ section.reviews > .reviews-container {
 .customer-caption {
   position: relative;
   top: -30px;
+}
+
+section.socials {
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--light-color);
+  color: black !important;
+  width: 100%;
+}
+.socials-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.socials h2,
+.socials p {
+  color: var(--dark-color);
+}
+.socials-link img {
+  height: 100px;
 }
