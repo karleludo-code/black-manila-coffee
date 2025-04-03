@@ -369,17 +369,17 @@ section.reviews > .reviews-container {
 
 .review-item > .textbox-container {
   height: 200px;
-  padding: 1em;
+  padding: 0 1em 1em;
 }
 
 .review-item .review-item-image {
   height: 360px;
   width: 360px;
   object-fit: cover;
+  border-bottom: var(--light-color) solid 3px;
 }
 
 .review-item .customer-portrait {
-  transform: translateY(30px);
   height: 60px;
   width: 60px;
 
@@ -388,4 +388,9 @@ section.reviews > .reviews-container {
   border: var(--light-color) solid 3px;
   border-radius: 50%;
   object-fit: cover;
+}
+.customer-portrait,
+.customer-caption {
+  position: relative;
+  top: -30px;
 }
