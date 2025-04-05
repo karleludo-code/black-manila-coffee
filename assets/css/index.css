@@ -44,7 +44,7 @@ section.hero {
   height: 100vh;
   /* TODO: make this responsive */
   /* maybe select a better photo or change into 2 photos, one for background and one for the coffee cup or some kind of hero image */
-  background-image: url(/assets/images/pexels-eyad-tariq-2217318-3879495.jpg);
+  background-image: url(../images/pexels-eyad-tariq-2217318-3879495.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -101,7 +101,7 @@ main.explore {
 }
 
 .drinks-overlay {
-  background-image: url(/assets/images/repeated-text-overlay.png);
+  background-image: url(../images/repeated-text-overlay.png);
   background-size: cover;
   background-position: center;
   /* crazy gradient wizardry */
@@ -162,7 +162,7 @@ main.explore {
 }
 
 .beans-overlay {
-  background-image: url(/assets/images/tim-mossholder-YC6RVdoTtIk-unsplash.jpg);
+  background-image: url(../images/tim-mossholder-YC6RVdoTtIk-unsplash.jpg);
   background-size: cover;
   background-position: 0 60%;
   border-image: linear-gradient(black, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0))
@@ -320,7 +320,7 @@ section.reviews {
       var(--container-color),
       var(--container-color)
     ),
-    url(/assets/images/nick-hillier-xBXF9pr6LQo-unsplash.jpg);
+    url(../images/nick-hillier-xBXF9pr6LQo-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -425,7 +425,7 @@ section.location {
       var(--container-color),
       var(--container-color)
     ),
-    url(/assets/images/pexels-angel-dim-1300296130-28708578.jpg);
+    url(../images/pexels-angel-dim-1300296130-28708578.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
