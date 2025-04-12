@@ -21,16 +21,21 @@ header {
 
 .navbar ul {
   display: flex;
-  flex-direction: row;
   list-style-type: none;
   gap: 15px;
 }
 
+.header-navbar ul {
+  flex-direction: row;
+}
+.header-navbar a {
+  padding: 15px;
+  text-align: center;
+}
 .navbar a {
   text-decoration: none;
-  padding: 15px;
   display: block;
-  text-align: center;
+
   font-size: 20px;
 }
 
@@ -487,4 +492,72 @@ section.location > .section-heading {
 .map {
   min-width: 800px;
   min-height: 600px;
+}
+
+footer .footer-wrapper {
+  height: 240px;
+  width: 1120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  height: 120px;
+}
+.footer-navbar ul {
+  flex-direction: column;
+  gap: 9px;
+}
+
+footer .navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 70px;
+}
+
+footer .newsletter-container {
+  width: 360px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.newsletter-container .newsletter-input {
+  display: inline-block;
+  width: 310px;
+  height: 50px;
+  border: none;
+  color: var(--dark-color);
+}
+.newsletter-container .newsletter-button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: var(--container-color);
+  cursor: pointer;
+}
+
+.newsletter-container p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer-credits {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.footer-credits p,
+.footer-credits a {
+  font-size: 13px;
+  line-height: 18px;
 }
