@@ -1,3 +1,3 @@
 # black-manila-coffee
 
-A vanilla HTML, CSS, and Javascript landing page.
+An exercise in design, built with vanilla HTML, CSS, and Javascript.
